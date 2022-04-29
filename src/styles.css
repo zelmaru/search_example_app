@@ -1,0 +1,38 @@
+.App {
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.animalCard {
+	border: 1px solid grey;
+	margin: 1rem;
+	border-radius: 0.25rem;
+	position: relative;
+}
+
+.animalCard__id {
+	position: absolute;
+	right: 1rem;
+	top: 0.5rem;
+	color: grey;
+	font-size: 10px;
+}
+
+.animalCard__subtitle {
+	color: grey;
+}
+
+.searchField__input {
+	padding: 0.5rem;
+	border: 3px solid grey;
+	border-radius: 0.25rem;
+	font-size: 1.25rem;
+}
+
+.searchField__deleteButton {
+	margin-left: 0.5rem;
+	font-size: 1.5rem;
+	border-radius: 0.25rem;
+	border: 3px solid grey;
+	color: grey;
+}
