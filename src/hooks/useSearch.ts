@@ -3,7 +3,7 @@ import Entry from "../models/Entry";
 import EntryForSearch from "../models/EntryForSearch";
 
 export default function useSearch(data: Entry[]) {
-  const [searchTerm, setSearchTerm] = useState<string>("");
+  const [searchTerm, setSearchTerm] = useState("");
 
   const joinAllProperties = (entry: Entry): EntryForSearch => {
     const newEntry = {
